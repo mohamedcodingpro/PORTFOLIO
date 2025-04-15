@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects | Mohamed Abdirahman</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">MA</div>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#skills">Skills</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="projects-section">
+        <div class="container">
+            <h1 class="page-title">My Projects</h1>
+            
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/dementia.png" alt="Dementia Prediction System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Dementia Prediction System</h3>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Random Forest</span>
+                            <span>SHAP</span>
+                        </div>
+                        <p class="project-description">
+                            Developed a machine learning model to predict dementia progression using Random Forest 
+                            and Logistic Regression, with SHAP for model interpretability. Deployed via Flask API 
+                            with a user-friendly dashboard for real-time predictions.
+                        </p>
+                        <ul class="project-features">
+                            <li>Accurate prediction of dementia progression stages</li>
+                            <li>Explainable AI with SHAP values for clinician trust</li>
+                            <li>Compliant with South African data privacy regulations</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">View Details</a>
+                            <a href="#" class="btn btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/medical-ai.png" alt="AI-Driven Medical Diagnosis System">
+                    </div>
+                    <div class="project-content">
+                        <h3>AI-Driven Medical Diagnosis System</h3>
+                        <div class="project-tech">
+                            <span>Azure AI</span>
+                            <span>Python</span>
+                            <span>Computer Vision</span>
+                            <span>React</span>
+                        </div>
+                        <p class="project-description">
+                            Built an AI system for medical image interpretation and diagnostics using Microsoft Azure 
+                            AI services. Presented at the Microsoft AI For Good Hackathon, showcasing potential to 
+                            enhance healthcare accessibility in underserved communities.
+                        </p>
+                        <ul class="project-features">
+                            <li>Automated analysis of medical imaging (X-rays, CT scans)</li>
+                            <li>Integration with electronic health record systems</li>
+                            <li>Real-time diagnostic suggestions for physicians</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">View Details</a>
+                            <a href="#" class="btn btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Business Intelligence Dashboard</h3>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>PowerBI</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <p class="project-description">
+                            Developed a full-stack business intelligence dashboard for a retail client, integrating 
+                            real-time sales data with predictive analytics to optimize inventory management and 
+                            marketing strategies.
+                        </p>
+                        <ul class="project-features">
+                            <li>Real-time data visualization</li>
+                            <li>Predictive inventory recommendations</li>
+                            <li>Customizable reporting interface</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Natural Language Processing API</h3>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>NLTK</span>
+                            <span>Transformers</span>
+                        </div>
+                        <p class="project-description">
+                            Created a RESTful API for text analysis and processing, supporting sentiment analysis, 
+                            entity recognition, and text summarization for client applications in customer service 
+                            automation.
+                        </p>
+                        <ul class="project-features">
+                            <li>Support for multiple African languages</li>
+                            <li>Custom model training capabilities</li>
+                            <li>Scalable cloud deployment</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">View Details</a>
+                            <a href="#" class="btn btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Mohamed Abdirahman. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="experience.html">Experience</a>
+                <a href="projects.html">Projects</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
